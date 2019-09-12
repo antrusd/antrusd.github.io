@@ -1,3 +1,25 @@
-theme: jekyll-theme-hacker
+remote_theme: chesterhow/tale
+
 show_downloads: false
 show_repository: false
+
+markdown: kramdown
+
+include:
+  - _pages
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
+
+permalink: /:year-:month-:day/:title
+paginate: 5
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - tale.gemspec
