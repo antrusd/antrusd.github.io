@@ -1,5 +1,4 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-gem 'github-pages', group: :jekyll_plugins
-gem 'jekyll-remote-theme'
-gem 'jekyll-paginate'
+source "https://rubygems.org"
+gemspec

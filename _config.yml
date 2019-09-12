@@ -1,7 +1,8 @@
-remote_theme: chesterhow/tale
-
-show_downloads: false
-show_repository: false
+---
+title: antrusd.me
+#description: 'Anthony Rusdi'
+#baseurl: '/tale'
+url: 'https://antrusd.me'
 
 markdown: kramdown
 
@@ -14,11 +15,11 @@ sass:
 
 plugins:
   - jekyll-paginate
-  - jekyll-remote-theme
 
 permalink: /:year-:month-:day/:title
 paginate: 5
 
+# Excludes
 exclude:
   - Gemfile
   - Gemfile.lock
