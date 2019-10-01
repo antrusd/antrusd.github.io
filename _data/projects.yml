@@ -1,0 +1,12 @@
+- layout: top-middle
+  name: Simple Quick File Sharing
+  link: github.com/antrusd/quickshare
+  github: antrusd/quickshare
+  quote: >
+    This is probably one of the greatest apps ever created, if you don't agree
+    you're probably wrong.
+  description: |
+    I started this project as I need to quickly share some files between my
+    laptop and my mobile. The nice thing about this software is it will random
+    generated URI and auto kill it self after several minutes (default to 5
+    minutes).

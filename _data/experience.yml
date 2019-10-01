@@ -1,0 +1,15 @@
+- layout: left
+  company: Bukalapak
+  link: www.bukalapak.com
+  job_title: System Engineer
+  dates: October 2017 - Present
+  quote: >
+    One of the largest e-commerce in Indonesia. I'm really proud being one of
+    their team member.
+  description: |
+    Along with my team, we were working to handle thousand of bare-metal server
+    and virtual machines. One of my achievement there was built automation
+    provisioning system with [<mark>Foreman</mark>](https://theforeman.org/)
+    that able to parallel provisioning bare-metal server so that provisioning 80
+    or even more new bare-metal server requires same amount of time as
+    installing single server, something that we used to have to do manually.

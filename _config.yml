@@ -1,26 +1,48 @@
----
-title: antrusd.me
-#description: 'Anthony Rusdi'
-#baseurl: '/tale'
-url: 'https://antrusd.me'
+# Site
+favicon: images/favicon.png
 
-markdown: kramdown
+# Personal info
+name: Anthony Rusdi
+title: Senior Linux System Engineer
+email: root@antrusd.me
+website: https://blog.antrusd.me
 
-include:
-  - _pages
+# Social links
+github_username: antrusd
+gitlab_username: antrusd
+medium_username: antrusd
+telegram_username: antrusd
+linkedin_username: antrusd
 
-sass:
-  sass_dir: _sass
-  style: compressed
+# About Section
+# about_title: About Me
+#about_profile_image: images/profile.png
+about_content: |
+  Hi, my name's Anthony and I'm a Linux System Engineer with almost 9
+  years of experience in open source virtualization and infrastructure
+  automation. Trying hard to bring open source technologies to several
+  enterprise companies in Indonesia as an alternative solution.
 
-plugins:
-  - jekyll-paginate
+  I am most skilled in: <mark>Debian GNU/Linux</mark>, writing
+  <mark>Ansible Playbooks</mark> and <mark>Docker</mark>
 
-permalink: /:year-:month-:day/:title
-paginate: 5
+# Projects Section
+# projects_title: Projects
 
-# Excludes
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - tale.gemspec
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+more_content: |
+  Alongside my interests in linux system engineering, some of my other interests
+  and hobbies are:
+   - Playing LEGO® video games with my son
+   - Reading books
+   - Sleeping
+
+# Footer
+footer_show_references: false

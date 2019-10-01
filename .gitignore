@@ -1,6 +1,7 @@
+*.code-workspace
 *.gem
-.bundle
 .DS_Store
+.bundle
 .sass-cache
-_site
 Gemfile.lock
+_site
